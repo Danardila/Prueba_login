@@ -1,13 +1,13 @@
 :root{
     --width: 300px;
     --padding: 10px;
-    --bgcolor: rgb(52,52,52);
-    --hovercolor:rgb(23,23,23);
+    --bgcolor: #3FABDD;
+    --hovercolor:#3C839D;
     --width-collapsed: 50px;
 }
 
 body{
-    background-color: #032c55;
+    background-color: #ADDEF4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding:0;
@@ -20,21 +20,22 @@ body{
 }
 
 #main-container{
-    color:white;
+    color:green;
 
 }
 
 #sidemenu{
     background-color: var(--bgcolor);
-    color: white;
+    color:rgb(51, 65, 80);
     position: fixed;
+    font-weight: bold;
     height: 100%;
     left: 0;
     top: 0;
 }
 
 #sidemenu a{
-    color: white;
+    color: rgb(51, 65, 80);
     text-decoration: none;
 }
 
@@ -62,9 +63,10 @@ Header
 
 #sidemenu #header #menu-btn{
     cursor: pointer;
-    padding: 10px;
+    padding: 6px;
     width: var(--width-collapsed);
     box-sizing: border-box;
+    float: right;
 }
 
 #sidemenu #header #menu-btn:hover{
@@ -72,13 +74,10 @@ Header
 }
 
 #sidemenu #header #menu-btn .btn-hamburger{
-    background-color: #fff;
-    width: 100%;
-    height: 2px;
-    margin: 3px 0;
-    float: right;
-    
-    
+    background-color: rgb(51, 65, 80);
+    width: 90%;
+    height: 3px;
+    margin: 5px 0;
 }
 
 /*
@@ -93,8 +92,11 @@ Profile
 
 #sidemenu #profile #photo{
     box-sizing: border-box;
-    padding: var(--padding);
-    margin: 0 auto;
+
+}
+
+#sidemenu #profile #name{
+    margin: 0 -2%;
 }
 
 #sidemenu #profile #photo img{
@@ -104,7 +106,6 @@ Profile
 
 #sidemenu #profile #photo, #sidemenu #profile #name{
     font-size: 24px;
-    padding: var(--padding);
     overflow: hidden;
 }
 
@@ -145,7 +146,7 @@ item
 }
 
 #sidemenu #menu-items .item .icon img{
-    width:100%;
+    width:70%;
 }
 
 #sidemenu #menu-items .item .title{
@@ -155,12 +156,33 @@ item
 #sidemenu #menu-items .item.separator{
     height: 1px;
     border-bottom: solid 1px var(--hovercolor);
-    margin: 15px 0;
+    margin: 0px 0;
 }
+
+.btn {
+    padding: 15px;
+    background: linear-gradient(
+        90deg,
+        #ddbc60 25%,
+        #CD7A57 100%);
+    
+    color:#2f2e30;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 25px;
+    border-top: none;
+    border-left: none;
+}
+
+.btn:hover{
+    background: #b4994e;
+}
+
 
 .menu-expanded{
     width: var(--width);
-    box-shadow: 0 0 10 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10 rgb(51, 65, 80);
 }
 
 .menu-expanded #header #title {
@@ -177,10 +199,17 @@ item
 
 .menu-expanded #profile #photo {
     width: 200px;
+    margin: 0 15%;
 }
 
 .menu-expanded #profile #name {
     width: 100%;
+}
+
+.menu-expanded .btn{
+    width: 60%;
+    margin-left: 18%;
+    margin-top: 6.5%;
 }
 
 .menu-collapsed{
@@ -200,4 +229,11 @@ item
 
 .menu-collapsed .item{
     width: 100px;
+}
+
+.menu-collapsed .btn{
+    display: none;
+}
+.menu-collapsed #profile #photo {
+    width: 50px;
 }
