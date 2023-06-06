@@ -38,7 +38,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="#">
+                <a href="convocatoria.php">
                     <div class="icon"><img src="images/convocatoria.png" id="iconconv" alt=""></div>
                     <div class="title"><span>Convocatorias</span></div>
                 </a>
@@ -47,7 +47,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="#">
+                <a href="inscripciones.php">
                     <div class="icon"><img src="images/inscripcion.png" alt=""></div>
                     <div class="title"><span>Inscripciones</span></div>
                 </a>
@@ -56,7 +56,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="#">
+                <a href="inventario.php">
                     <div class="icon"><img src="images/inventario.png" alt=""></div>
                     <div class="title"><span>Inventario</span></div>
                 </a>
@@ -65,7 +65,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="#">
+                <a href="entrega.php">
                     <div class="icon"><img src="images/entrega.png" alt=""></div>
                     <div class="title"><span>Entrega de mercados</span></div>
                 </a>
@@ -74,7 +74,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="#">
+                <a href="listacompras.php">
                     <div class="icon"><img src="images/listacompras.png" alt=""></div>
                     <div class="title"><span>Lista de compras</span></div>
                 </a>
