@@ -20,8 +20,7 @@ body{
 }
 
 #main-container{
-    color:green;
-
+    color:rgb(51, 65, 80);
 }
 
 #sidemenu{
@@ -153,7 +152,7 @@ item
     padding: var(--padding) 0;
 }
 
-#sidemenu #menu-items .item.separator{
+#sidemenu #menu-items .separator{
     height: 1px;
     border-bottom: solid 1px var(--hovercolor);
     margin: 0px 0;
@@ -198,7 +197,7 @@ item
 }
 
 .menu-expanded #profile #photo {
-    width: 200px;
+    width: 180px;
     margin: 0 15%;
 }
 

@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sesión</title>
     <link rel="stylesheet" href="styleprueba.css">
+    <script src="rel_sesionperfilus.js"></script>
 </head>
 <body>
       
@@ -28,57 +29,64 @@
         <div id="menu-items">
 
             <div class="item">
-                <a href="perfil_usuario.html">
+                <a href="perfil_usuario.php">
                     <div class="icon"><img src="images/id-card.png" alt=""></div>
-                    <div class="title"><span></span>Información de usuario</div>
+                    <div class="title"><span>Información de usuario</span></div>
+                </a>
             </div>
             
-            <div class="item separator"></div>
+            <div class="separator"></div>
 
             <div class="item">
                 <a href="#">
                     <div class="icon"><img src="images/convocatoria.png" id="iconconv" alt=""></div>
-                    <div class="title"><span></span>Convocatorias</div>
+                    <div class="title"><span>Convocatorias</span></div>
+                </a>
             </div>
             
-            <div class="item separator"></div>
+            <div class="separator"></div>
 
             <div class="item">
                 <a href="#">
                     <div class="icon"><img src="images/inscripcion.png" alt=""></div>
-                    <div class="title"><span></span>Inscripciones</div>
+                    <div class="title"><span>Inscripciones</span></div>
+                </a>
             </div>
             
-            <div class="item separator"></div>
+            <div class="separator"></div>
 
             <div class="item">
                 <a href="#">
                     <div class="icon"><img src="images/inventario.png" alt=""></div>
-                    <div class="title"><span></span>Inventario</div>
+                    <div class="title"><span>Inventario</span></div>
+                </a>
             </div>
             
-            <div class="item separator"></div>
+            <div class="separator"></div>
 
             <div class="item">
                 <a href="#">
                     <div class="icon"><img src="images/entrega.png" alt=""></div>
-                    <div class="title"><span></span>Entrega de mercados</div>
+                    <div class="title"><span>Entrega de mercados</span></div>
+                </a>
             </div>
             
-            <div class="item separator"></div>
+            <div class="separator"></div>
 
             <div class="item">
                 <a href="#">
                     <div class="icon"><img src="images/listacompras.png" alt=""></div>
-                    <div class="title"><span></span>Lista de compras</div>
+                    <div class="title"><span>Lista de compras</span></div>
+                </a>
+                    
             </div>
             
-            <div class="item separator"></div>
+            <div class="separator"></div>
         </div>
         <input class="btn" type="button" value="Cerrar sesión"/><br><br>
     </div>
     <div id="main-container">
-        Hola a todos
+        <h1>¡Bienvenido!</h1>
     </div>
 
     <script>

@@ -66,11 +66,11 @@ body {
   width: 100%;
   outline: none;
   border: none;
-  color: #adacac;
+  color: #a5a4a4;
   font-size: 1rem;
   background-color: white;
 }
-.form .btn {
+.form button {
   height: 55px;
   width: 100%;
   font-size: 1rem;
@@ -89,12 +89,12 @@ body {
   border-top: none;
   border-left: none;
 }
-.form .btn:hover {
+.form button:hover {
   background: #b4994e;
 }
 /*Responsive*/
 @media screen and (max-width: 500px) {
   .form .column {
     flex-wrap: wrap;
-}
+  }
 }
