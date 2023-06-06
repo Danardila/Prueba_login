@@ -28,7 +28,7 @@
         <div id="menu-items">
 
             <div class="item">
-                <a href="#">
+                <a href="perfil_usuario.html">
                     <div class="icon"><img src="images/id-card.png" alt=""></div>
                     <div class="title"><span></span>Información de usuario</div>
             </div>
