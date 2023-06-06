@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sesión</title>
-    <link rel="stylesheet" href="styleprueba.css">
+    <link rel="stylesheet" href="stylesesion.css">
     <script src="rel_sesionperfilus.js"></script>
 </head>
 <body>
