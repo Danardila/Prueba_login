@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Sesión</title>
     <link rel="stylesheet" href="stylesesion.css">
     <script src="rel_sesionperfilus.js"></script>
 </head>
 <body>
       
-    
+
     <div id="sidemenu" class="menu-collapsed">
         <div id="header">
             <div id="title"><span>SIRIM</span></div>
@@ -56,7 +56,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="inventario.php">
+                <a href="tarjetas-inventario.php">
                     <div class="icon"><img src="images/inventario.png" alt=""></div>
                     <div class="title"><span>Inventario</span></div>
                 </a>

@@ -19,8 +19,17 @@ body{
     margin-left: var(--width);
 }
 
+.contenedor-global{
+    width: 80%;
+    max-width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
 #main-container{
     color:rgb(51, 65, 80);
+    width: 70%;
+
 }
 
 #sidemenu{
