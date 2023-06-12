@@ -102,5 +102,16 @@
             document.querySelector('body').classList.toggle('body-expanded');
         }); 
     </script>
+
+    <script>
+        const items = document.querySelectorAll('.item');
+        items.forEach(item => {
+        item.addEventListener('click', () => {
+            menu.classList.remove("menu-expanded");
+            menu.classList.add("menu-collapsed");
+            document.querySelector('body').classList.remove('body-expanded');
+        });
+    });
+    </script>
 </body>
 </html>
