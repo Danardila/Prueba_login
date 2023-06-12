@@ -48,7 +48,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="./inscripcion-beneficiario.php">
+                <a href="./inscripcion-admin_volunt.html">
                     <div class="icon"><img src="images/inscripcion.png" alt=""></div>
                     <div class="title"><span>Inscripciones</span></div>
                 </a>
@@ -66,7 +66,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="#">
+                <a href="./entrega-usuario.html">
                     <div class="icon"><img src="images/entrega.png" alt=""></div>
                     <div class="title"><span>Entrega de mercados</span></div>
                 </a>
