@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Inventario</title>
-    <link rel="stylesheet" href="./style-tarjetas-inv.css">
-    <link rel="stylesheet" href="./RD-tarjetas/small.css" media="screen and (max-width:399px)">
-    <link rel="stylesheet" href="./RD-tarjetas/mobile.css" media="screen and (min-width:400px)">
-    <link rel="stylesheet" href="./RD-tarjetas/tablet.css" media="screen and (min-width:600px)">
-    <link rel="stylesheet" href="./RD-tarjetas/desktop.css" media="screen and (min-width:800px)">
+    <link rel="stylesheet" href="./css/style-tarjetas-inv.css">
+    <link rel="stylesheet" href="./css/Responsive/RD-tarjetas/small.css" media="screen and (max-width:399px)">
+    <link rel="stylesheet" href="./css/Responsive/RD-tarjetas/mobile.css" media="screen and (min-width:400px)">
+    <link rel="stylesheet" href="./css/Responsive/RD-tarjetas/tablet.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./css/Responsive/RD-tarjetas/desktop.css" media="screen and (min-width:800px)">
 
 </head>
 <body>
 
-<header>¿Qué desea hacer?</header>
+<header class="tarj-header">¿Qué desea hacer?</header><br>
 
 <main class="container">
         <section class="card-container1 section-container">
@@ -46,7 +46,7 @@
         <section class="card-container3 section-container">
             <div class="card">
                 <figure>
-                    <img src="./images/armar-paquetes.jpg" alt="Dibujo de un paquete gigante con productos y una familia al rededor">
+                    <img id="img3" src="./images/armar-paquetes.jpg" alt="Dibujo de un paquete gigante con productos y una familia al rededor">
                 </figure>
                 <div class="card-content">
                     <h3>Armar paquetes de productos</h3>

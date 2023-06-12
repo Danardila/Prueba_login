@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Sesión</title>
-    <link rel="stylesheet" href="stylesesion.css">
-    <script src="rel_sesionperfilus.js"></script>
+    <link rel="stylesheet" href="./css/stylesesion.css">
+    <script src="./js/rel_sesionperfilus.js"></script>
+    <script src="./js/opcion-inscripcion.js"></script>
+    <link rel="stylesheet" href="./css/Responsive/RD-sesion/mobile-tab.css" media="screen and (max-width:600px)">
 </head>
 <body>
       
-
-    <div id="sidemenu" class="menu-collapsed">
+    <header id="sidemenu" class="menu-collapsed">
         <div id="header">
             <div id="title"><span>SIRIM</span></div>
             <div id="menu-btn">
@@ -22,14 +23,14 @@
         </div>
 
         <div id="profile">
-            <div id="photo"><img src="images/profilephoto.png" alt=""></div>
+            <div id="photo"><img src="images/profilephoto.png" alt="Foto del perfil de usuario"></div>
             <div id="name"><span>Daniela Ardila</span></div>
         </div>
 
         <div id="menu-items">
 
             <div class="item">
-                <a href="perfil_usuario.php">
+                <a href="./perfil_usuario.php">
                     <div class="icon"><img src="images/id-card.png" alt=""></div>
                     <div class="title"><span>Información de usuario</span></div>
                 </a>
@@ -38,7 +39,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="convocatoria.php">
+                <a href="./convocatoria.php">
                     <div class="icon"><img src="images/convocatoria.png" id="iconconv" alt=""></div>
                     <div class="title"><span>Convocatorias</span></div>
                 </a>
@@ -47,7 +48,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="inscripciones.php">
+                <a href="./inscripcion-beneficiario.php">
                     <div class="icon"><img src="images/inscripcion.png" alt=""></div>
                     <div class="title"><span>Inscripciones</span></div>
                 </a>
@@ -56,7 +57,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="tarjetas-inventario.php">
+                <a href="./tarjetas-inventario.php">
                     <div class="icon"><img src="images/inventario.png" alt=""></div>
                     <div class="title"><span>Inventario</span></div>
                 </a>
@@ -65,7 +66,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="entrega.php">
+                <a href="#">
                     <div class="icon"><img src="images/entrega.png" alt=""></div>
                     <div class="title"><span>Entrega de mercados</span></div>
                 </a>
@@ -74,7 +75,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="listacompras.php">
+                <a href="#">
                     <div class="icon"><img src="images/listacompras.png" alt=""></div>
                     <div class="title"><span>Lista de compras</span></div>
                 </a>
@@ -84,10 +85,13 @@
             <div class="separator"></div>
         </div>
         <input class="btn" type="button" value="Cerrar sesión"/><br><br>
-    </div>
-    <div id="main-container">
-        <h1>¡Bienvenido!</h1>
-    </div>
+    </header>
+    <main class="main-container">
+        <div class="saludo-container">
+            <h1>¡Bienvenido!</h1>
+        </div>
+        
+    </main>
 
     <script>
         const btn = document.querySelector('#menu-btn');

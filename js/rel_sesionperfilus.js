@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function() {
+(function() {
+  document.addEventListener("DOMContentLoaded", function() {
     var menuItems = document.querySelectorAll('.item');
     menuItems.forEach(item => {
       const link = item.querySelector('a');
@@ -9,13 +10,16 @@ document.addEventListener("DOMContentLoaded", function() {
         loadContent(target);
       });
     });
-});
+  });
+})();
+
+
 
 function loadContent(url) {
   const xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
-      document.getElementById('main-container').innerHTML = this.responseText;
+      document.getElementsByClassName('main-container')[0].innerHTML = this.responseText;
     }
   };
   xhttp.open('GET', url, true);

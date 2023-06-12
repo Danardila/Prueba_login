@@ -1,17 +1,6 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html{
-    font-size: 62.5%;
-}
-
-header {
+.tarj-header{
     font-size: 3.5rem;
     text-align: center;
-    margin: 3% auto;
 }
 
 .container{
@@ -56,6 +45,13 @@ header {
 
 .card img{
     width: 35%;
+    margin-top: 2rem;
+}
+
+#img3{
+    width: 45%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .card .card-content{
