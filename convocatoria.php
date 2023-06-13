@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./css/styleconvocatoria.css">
 </head>
 <body>
-    <section class="container">
+<main class="main-convocatoria">
+  <section class="container">
         <header>Convocatoria</header>
        
         <form action="#" class="form">
@@ -32,45 +33,45 @@
         </form>
     </section>
 
-<br><br>
+  <br><br>
 
-<section class="container2">
-  <header>Historial de convocatorias</header><br>
-
-  <table id=table1>
-    <thead>
-      <tr>
-        <th>Convocatoria</th>
-        <th>Fecha inicial</th>
-        <th>Fecha final</th>
-        <th>Fecha de entrega</th>
-        <th>Estado</th>
-        <th>Responsable</th>
-        <th>Rol</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2</td>
-        <td>6/06/2023</td>
-        <td>16/06/2023</td>
-        <td>17/06/2023</td>
-        <td>Vigente</td>
-        <td>Fulanito</td>
-        <td>Voluntario</td>
-      </tr>
-    <tr>
-        <td>1</td>
-        <td>6/05/2023</td>
-        <td>16/05/2023</td>
-        <td>17/05/2023</td>
-        <td>Caducó</td>
-        <td>Sutanito</td>
-        <td>Administrador</td>
-    </form> 
-    </tr>
-  </table>
-</section>
+  <section class="table-container">
+    <header>Historial de convocatorias</header><br>
+    <table id=table1>
+      <thead>
+        <tr>
+          <th>Convocatoria</th>
+          <th>Fecha inicial</th>
+          <th>Fecha final</th>
+          <th>Fecha de entrega</th>
+          <th>Estado</th>
+          <th>Responsable</th>
+          <th>Rol</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2</td>
+          <td>6/06/2023</td>
+          <td>16/06/2023</td>
+          <td>17/06/2023</td>
+          <td>Vigente</td>
+          <td>Fulanito</td>
+          <td>Voluntario</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>6/05/2023</td>
+          <td>16/05/2023</td>
+          <td>17/05/2023</td>
+          <td>Caducó</td>
+          <td>Sutanito</td>
+          <td>Administrador</td>
+        </tr>
+    </table>
+  </section>
+</main>
+    
 
 </body>
 </html>
