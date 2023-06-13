@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Sesión</title>
+    <link rel="icon" href="./images/logo-iglesia.png" type="image/png">
     <link rel="stylesheet" href="./css/stylesesion.css">
     <script src="./js/rel_sesionperfilus.js"></script>
     <script src="./js/opcion-inscripcion.js"></script>
