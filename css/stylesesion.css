@@ -52,6 +52,19 @@ main.main-container{
     left: 0;
     top: 0;
     z-index: 1;
+    overflow: auto;
+}
+
+#sidemenu{
+    background-color: var(--bgcolor);
+    color:rgb(51, 65, 80);
+    position: fixed;
+    font-weight: bold;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: auto;
 }
 
 #sidemenu a{

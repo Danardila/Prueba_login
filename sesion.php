@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/stylesesion.css">
     <script src="./js/rel_sesionperfilus.js"></script>
     <script src="./js/opcion-inscripcion.js"></script>
+    <script src="./js/opcion-lista_prod.js"></script>
     <link rel="stylesheet" href="./css/Responsive/RD-sesion/mobile-tab.css" media="screen and (max-width:600px)">
 </head>
 <body>
@@ -76,7 +77,7 @@
             <div class="separator"></div>
 
             <div class="item">
-                <a href="#">
+                <a href="lista-compras.html">
                     <div class="icon"><img src="images/listacompras.png" alt=""></div>
                     <div class="title"><span>Lista de compras</span></div>
                 </a>

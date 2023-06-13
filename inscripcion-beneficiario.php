@@ -15,16 +15,16 @@
 <body>
 
     <header class="insc-header">
-        <div class="opcion" id="op1">
+        <div class="opcion">
             <button onclick="mostrarContenido('insc-usuario')">Inscribirse a una convocatoria</button>
         </div>
-        <div class="opcion" id="op2">
+        <div class="opcion">
             <button onclick="mostrarContenido('consul-insc')">Consultar estado del proceso</button>
         </div>
         
     </header>
 
-    <main class="inscription-main" id="op3">
+    <main class="inscription-main">
         <section id="insc-usuario" class="inscribir-conv">
             <label for="inscribirse">
                 <span>Convocatoria activa</span>
