@@ -55,19 +55,11 @@
           <td>6/06/2023</td>
           <td>16/06/2023</td>
           <td>17/06/2023</td>
-          <td>Vigente</td>
-          <td>Fulanito</td>
-          <td>Voluntario</td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
-        <tr>
-          <td>1</td>
-          <td>6/05/2023</td>
-          <td>16/05/2023</td>
-          <td>17/05/2023</td>
-          <td>Caducó</td>
-          <td>Sutanito</td>
-          <td>Administrador</td>
-        </tr>
+
     </table>
   </section>
 </main>
