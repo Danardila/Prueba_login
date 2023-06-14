@@ -9,9 +9,45 @@ header h1 {
     margin-bottom: 2rem;
 }
 
-.entrega-user{
+.opt-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 8%;
+    margin-right: auto;
+
+}
+
+.opcion button{
+    padding: 4rem;
+    background: linear-gradient(
+        90deg,
+        #ddbc60 25%,
+        #CD7A57 100%);
+        color:#555357;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 1rem;
+    border-top: none;
+    border-left: none;
+    margin: 1rem;
+}
+
+.opcion button:hover{
+    background: #b4994e;
+}
+
+.opt-container{
+    display: none;
+}
+
+.lista-productos{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-right: 2%;
 }
 
 table{

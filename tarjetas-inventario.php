@@ -25,7 +25,7 @@
                 <div class="card-content">
                     <h3>Consultar productos en stock</h3>
                     <p>Ingrese aquí para ver los productos disponibles en el almacén y su información asociada.</p><br>
-                    <a href="#">Ingresar</a>
+                    <a href="./consultar-productos.html">Ingresar</a>
                 </div>
             </div>
         </section>
@@ -38,7 +38,7 @@
                 <div class="card-content">
                     <h3>Registrar productos nuevos</h3>
                     <p>Ingrese aquí para registrar los productos nuevos que van a ingresar al almacén.</p><br><br>
-                    <a href="#">Ingresar</a>
+                    <a href="./registrar-productos.html">Ingresar</a>
                 </div>
             </div>
         </section>
@@ -51,7 +51,7 @@
                 <div class="card-content">
                     <h3>Armar paquetes de productos</h3>
                     <p>Ingrese aquí para registrar los paquetes que se van a armar, indicando los productos.</p><br>
-                    <a href="#">Ingresar</a>
+                    <a href="./armar-paquetes.html">Ingresar</a>
                 </div>
             </div>
         </section>
